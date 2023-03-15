@@ -18,7 +18,7 @@ pnpm add @huggingface/inference
 
 ## Usage
 
-❗**Important note:** Using an API key is optional to get started, however you will be rated limited eventually. Join [Hugging Face](https://huggingface.co/join) and then visit [access tokens](https://huggingface.co/settings/tokens) to generate your API key for **free**. 
+❗**Important note:** Using an API key is optional to get started, however you will be rate limited eventually. Join [Hugging Face](https://huggingface.co/join) and then visit [access tokens](https://huggingface.co/settings/tokens) to generate your API key for **free**. 
 
 Your API key should be kept private. If you need to protect it in front-end applications, we suggest setting up a proxy server that stores the API key.
 
@@ -189,6 +189,6 @@ HF_ACCESS_TOKEN="your access token" npm run test
 
 ## Finding appropriate models
 
-We have an informative documentation project called [Tasks](https://huggingface.co/tasks), which lists available models for each task and explains how each task works in detail.
+We have an informative documentation project called [Tasks](https://huggingface.co/tasks) to list available models for each task and explain how each task works in detail.
 
 It also contains demos, example outputs, and other resources should you want to dig deeper into the ML side of things.
